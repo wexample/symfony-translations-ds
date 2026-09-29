@@ -10,7 +10,7 @@
         checked: locale.current,
         radio: true,
         href: locale.url ?? '#',
-        attr: { hreflang: locale.code, lang: locale.code },
+        attr: { hreflang: locale.code, lang: locale.code, dir: locale.dir },
     }]) -%}
 {%- endfor -%}
 <div class="locale-switcher">
