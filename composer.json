@@ -7,5 +7,27 @@
     "psr-4": {
       "Wexample\\SymfonyTranslationsDs\\": "src/"
     }
+  },
+  "description": "The design system side of wexample/symfony-translations: the language switcher",
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-design-system": "*",
+    "wexample/symfony-helpers": "*",
+    "wexample/symfony-loader": "*",
+    "wexample/symfony-translations": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
+    }
   }
 }

@@ -1,0 +1,21 @@
+{#- Every language the application speaks, each leading to the page being read
+    in it. A plain link and not an in-page switch: the whole interface changes
+    language, which is a new page, not a redraw. Languages name themselves, so
+    a reader lost in a tongue they cannot read still finds their own. -#}
+{%- set locale_items = [] -%}
+{%- set current_code = app.request.locale -%}
+{%- for locale in locales() -%}
+    {%- set locale_items = locale_items|merge([{
+        label: locale.name,
+        checked: locale.current,
+        radio: true,
+        href: locale.url ?? '#',
+        attr: { hreflang: locale.code, lang: locale.code },
+    }]) -%}
+{%- endfor -%}
+<div class="locale-switcher">
+    {{ button_menu('ph:bold/translate', current_code|upper, locale_items, {
+        menu_align: 'right',
+        attr: { title: '@component::label' | trans, 'aria-label': '@component::label' | trans },
+    }) }}
+</div>
