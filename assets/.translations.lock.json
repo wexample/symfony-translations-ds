@@ -53,6 +53,18 @@
             "engine": "syrtis"
         }
     },
+    "components/locale-switcher/locale-switcher.id.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
+    "components/locale-switcher/locale-switcher.it.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
     "components/locale-switcher/locale-switcher.ja.yml": {
         "label": {
             "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
@@ -65,7 +77,19 @@
             "engine": "syrtis"
         }
     },
+    "components/locale-switcher/locale-switcher.nl.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
     "components/locale-switcher/locale-switcher.pl.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
+    "components/locale-switcher/locale-switcher.pt_BR.yml": {
         "label": {
             "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
             "engine": "syrtis"
@@ -83,7 +107,19 @@
             "engine": "syrtis"
         }
     },
+    "components/locale-switcher/locale-switcher.tr.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
     "components/locale-switcher/locale-switcher.ur.yml": {
+        "label": {
+            "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
+            "engine": "syrtis"
+        }
+    },
+    "components/locale-switcher/locale-switcher.vi.yml": {
         "label": {
             "hash": "e6ae8e4dd4289b9237ad82aee7d8a400",
             "engine": "syrtis"
