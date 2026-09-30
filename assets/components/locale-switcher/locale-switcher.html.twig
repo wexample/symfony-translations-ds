@@ -18,9 +18,11 @@
         attr: { hreflang: locale.code, lang: locale.code, 'data-filter': locale.code },
     }]) -%}
 {%- endfor -%}
+{#- A handful of languages is a menu; from eight it is a list to search. -#}
 <div class="locale-switcher">
     {{ button_menu('ph:bold/translate', current_code|upper, locale_items, {
         menu_align: 'right',
+        filter_from: 8,
         attr: { title: '@component::label' | trans, 'aria-label': '@component::label' | trans },
     }) }}
 </div>
