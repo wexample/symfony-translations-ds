@@ -7,7 +7,9 @@
 {#- `lang` and not `dir` on each name: they all keep the page's alignment, so
     the list reads down one edge, while the browser still shapes each name in
     its own script. The code is searched too — « ar » finds العربية. -#}
-{%- for locale in locales() -%}
+{#- In the order of their names, as each writes its own: a list read by
+    looking for one's language. -#}
+{%- for locale in locales()|sort((a, b) => a.name|lower <=> b.name|lower) -%}
     {%- set locale_items = locale_items|merge([{
         label: locale.name,
         checked: locale.current,
