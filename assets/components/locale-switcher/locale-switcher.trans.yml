@@ -1,0 +1,68 @@
+en:
+  label: Language
+
+ar:
+  label: Language
+
+bn:
+  label: ভাষা
+
+de:
+  label: Sprache
+
+es:
+  label: Language
+
+fa:
+  label: زبان
+
+fi:
+  label: Kieli
+
+fr:
+  label: Langue
+
+he:
+  label: שפה
+
+hi:
+  label: भाषा
+
+id:
+  label: Bahasa
+
+it:
+  label: Lingua
+
+ja:
+  label: 言語
+
+ko:
+  label: 언어
+
+nl:
+  label: Taal
+
+pl:
+  label: Język
+
+pt_BR:
+  label: Idioma
+
+ru:
+  label: Язык
+
+th:
+  label: ภาษา
+
+tr:
+  label: Dil
+
+ur:
+  label: زبان
+
+vi:
+  label: 'Ngôn ngữ'
+
+zh:
+  label: 语言
