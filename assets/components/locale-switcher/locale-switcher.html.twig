@@ -2,22 +2,10 @@
     in it. A plain link and not an in-page switch: the whole interface changes
     language, which is a new page, not a redraw. Languages name themselves, so
     a reader lost in a tongue they cannot read still finds their own. -#}
-{%- set locale_items = [] -%}
 {%- set current_code = app.request.locale -%}
-{#- `lang` and not `dir` on each name: they all keep the page's alignment, so
-    the list reads down one edge, while the browser still shapes each name in
-    its own script. The code is searched too — « ar » finds العربية. -#}
-{#- In the order of their names, as each writes its own: a list read by
-    looking for one's language. -#}
-{%- for locale in locales()|sort((a, b) => a.name|lower <=> b.name|lower) -%}
-    {%- set locale_items = locale_items|merge([{
-        label: locale.name,
-        checked: locale.current,
-        radio: true,
-        href: locale.url ?? '#',
-        attr: { hreflang: locale.code, lang: locale.code, 'data-filter': locale.code },
-    }]) -%}
-{%- endfor -%}
+{#- In the order of their names, as each writes its own, each found by its
+    code too (locale_menu_items, symfony-translations). -#}
+{%- set locale_items = locale_menu_items() -%}
 {#- A handful of languages is a menu; from eight it is a list to search. -#}
 <div class="locale-switcher">
     {{ button_menu('ph:bold/translate', current_code|upper, locale_items, {
