@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-translations-ds",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -11,7 +11,7 @@
   "description": "The design system side of wexample/symfony-translations: the language switcher",
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-design-system": ">=29.0.0",
+    "wexample/symfony-design-system": ">=30.0.0",
     "wexample/symfony-helpers": ">=15.0.0",
     "wexample/symfony-loader": ">=20.0.0",
     "wexample/symfony-translations": ">=9.0.0"
