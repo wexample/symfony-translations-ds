@@ -1,6 +1,6 @@
 # symfony-translations-ds
 
-Version: 2.0.9
+Version: 2.0.10
 
 The design system side of wexample/symfony-translations: the language switcher
 
@@ -26,10 +26,10 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-design-system: >=30.0.0
+- wexample/symfony-design-system: >=31.0.0
 - wexample/symfony-helpers: >=15.0.0
-- wexample/symfony-loader: >=20.0.0
-- wexample/symfony-translations: >=9.0.0
+- wexample/symfony-loader: >=21.0.0
+- wexample/symfony-translations: >=10.0.0
 
 ## Versioning & Compatibility Policy
 
