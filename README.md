@@ -1,6 +1,6 @@
 # symfony-translations-ds
 
-Version: 2.0.18
+Version: 2.0.19
 
 The design system side of wexample/symfony-translations: the language switcher
 
@@ -26,8 +26,8 @@ The suite includes packages for configuration management, file handling, prompts
 - php: >=8.5
 - wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=24.0.0
-- wexample/symfony-translations: >=16.0.0
+- wexample/symfony-loader: >=25.0.0
+- wexample/symfony-translations: >=17.0.0
 
 ## Versioning & Compatibility Policy
 
