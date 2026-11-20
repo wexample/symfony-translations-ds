@@ -1,6 +1,6 @@
 # symfony-translations-ds
 
-Version: 2.0.37
+Version: 2.0.38
 
 The design system side of wexample/symfony-translations: the language switcher
 
